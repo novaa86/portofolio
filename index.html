@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>bintangnovala</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="navbar">
+        <nav>
+          <h1>Bintang Aulia Novala</h1>
+          <div class="hamburger" onclick="toggleMenu()">☰</div>
+          <ul class="nav-links">
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#Sertifikat">Sertifikat</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="home">
+        <br /><br />
+        <h2>Hello Everyone !!</h2>
+        <p>
+          My name is
+          <b><span style="font-size: 30px">Bintang Aulia Novala </span>,</b> and
+          I’m currently a fourth-semester Informatics student. I have a strong
+          interest in technology, programming, and how digital innovations shape
+          our world.&nbsp;&nbsp;&nbsp;
+        </p>
+
+        <p>
+          <span style="color: #a5bfcc"> Mahasiswa | </span>
+          <b><span> ITSK dr. Soepraoen</span></b>
+        </p>
+        <br />
+
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/bintangnovala/"> Instagram </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/bintang-aulia-5634b5292/">
+              Linkedin
+            </a>
+          </li>
+        </ul>
+      </section>
+      <br /><br /><br /><br /><br />
+      <div class="image">
+        <img src="image/nada.jpg" />
+      </div>
+
+      <section id="about">
+        <h2>tentang saya</h2>
+        <p>
+          I am an active undergraduate student in Informatics at the Institute
+          of Technology, Science, and Health, as well as a content creator
+          actively engaged on Instagram and TikTok. With experience in content
+          creation, strategic content planning, and video editing, I am
+          passionate about crafting engaging and impactful digital content.
+        </p><br><br>
+          <!-- form untuk masuk kritik dan saran -->
+      
+      </section>
+      <div class="kontencv">
+        <a
+          href="https://www.linkedin.com/in/bintang-aulia-5634b5292/"
+          type="blank"
+          ><img src="image/CV_Bintang Aulia Novala.png"
+        /></a>
+      </div>
+      </div>
+
+      <!-- form kritik dan saran -->
+      <div id="Aspirasi" class="form">
+          
+        <form id="aspirasi-form" class="form">
+          <label for="nama">saran</label>
+          <input type="text" id="nama" required />
+
+          <label for="pesan">kritik</label>
+          <textarea id="pesan" required></textarea>
+
+          <button type="submit">Kirim</button>
+        </form>
+        <p id="status"></p>
+      </div>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Description of the project.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Description of the project.</p>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+      <section id="Sertifikat"></section>
+
+      <footer></footer>
+
+      <script>
+        function toggleMenu() {
+          var menu = document.querySelector(".nav-links");
+          menu.classList.toggle("active");
+        }
+      </script>
+    </div>
+  </body>
+</html>
